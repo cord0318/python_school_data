@@ -30,7 +30,7 @@ school.meal_data("B10", "7081423")
 ```python
 # 비동기
 import asyncio
-import school_data
+import school
 async def main():
     await school.asyncMealData("지역코드", "학교코드", "급식 코드", "날짜")
 asyncio.get_event_loop().run_until_complete(main())
