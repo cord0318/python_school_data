@@ -21,10 +21,10 @@ pip install school_data
 
 ```python
 # 동기
-import school_data
-school_data.meal_data("B10", "7081423")
+import school
+school.meal_data("B10", "7081423")
 
-#school_data_meal_data("지역코드", "학교코드", "급식 코드", "날짜")
+#school.meal_data("지역코드", "학교코드", "급식 코드", "날짜")
 ```
 
 ```python
@@ -32,7 +32,7 @@ school_data.meal_data("B10", "7081423")
 import asyncio
 import school_data
 async def main():
-    await school_data.asyncMealData("지역코드", "학교코드", "급식 코드", "날짜")
+    await school.asyncMealData("지역코드", "학교코드", "급식 코드", "날짜")
 asyncio.get_event_loop().run_until_complete(main())
 ```
 
