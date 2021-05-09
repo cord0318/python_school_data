@@ -48,3 +48,6 @@ asyncio.get_event_loop().run_until_complete(main())
 ```python
 {"error":Boolen(True,False),"code":"처리코드(밑의 처리코드 종류 참조)","message":"해당 에러나, 성공 상황에 대한 설명",......}
 ```
+
+## 로그
+- 5/9 - 토큰 기능 완료
