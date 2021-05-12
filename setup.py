@@ -7,7 +7,7 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
 
 setup(
     name="school_data",
-    version="0.0.1",
+    version="0.0.5",
     description="나이스 학교 데이터 라이브러리",
     license="GPL-V3",
     author="Jung Ji-Hyo",
@@ -15,7 +15,7 @@ setup(
     long_description=long_description,
     long_description_content_type='text/markdown',
     url="https://github.com/cord0318/python_school_data",
-    install_requires=["asyncio", "aiohttp"],
+    install_requires=["asyncio", "aiohttp", "pyjwt"],
     packages=find_packages(),
     keywords=["korea", "school", "school_data", "SchoolInfo", "학교데이터"],
     python_requires=">=3",
