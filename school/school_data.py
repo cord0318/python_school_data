@@ -231,9 +231,3 @@ def ScheduleTokenCheck(token, perio=None, date=now(), loop=asyncio.get_event_loo
 
 
 # -- testing --
-async def main():
-    data = await asyncScheduleToken("초등", "서울강월초등학교", "6", "5")
-    token = data["token"]
-    data = await asyncScheduleTokenCheck(token, date="20210513")
-    print(data)
-asyncio.get_event_loop().run_until_complete(main())
